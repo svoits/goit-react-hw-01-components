@@ -53,10 +53,8 @@ export const Stats = styled.ul`
   display: flex;
   justify-content: space-between;
 
-  /* padding: 20px; */
-
   border-top: 1px solid #e8e8e8;
-  background-color: #f0f0f0;
+  background-color: #f5f5f5;
 `;
 
 export const StatsItem = styled.li`

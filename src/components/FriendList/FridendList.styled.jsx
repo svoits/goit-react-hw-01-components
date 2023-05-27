@@ -17,7 +17,7 @@ export const FriendListItem = styled.li`
   padding: 10px;
 
   border-radius: 2px;
-  box-shadow: 0px 2px 6px 1px rgba(189, 189, 189, 1);
+  box-shadow: 0px 1px 4px 1px rgba(189, 189, 189, 1);
 `;
 
 export const OnlineStatus = styled.span`

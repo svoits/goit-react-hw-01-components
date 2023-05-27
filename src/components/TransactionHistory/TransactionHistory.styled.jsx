@@ -26,7 +26,7 @@ export const TableBody = styled.tbody`
   }
 
   tr:nth-of-type(even) {
-    background-color: #e1e1e1;
+    background-color: #f5f5f5;
   }
 
   tr:hover {
