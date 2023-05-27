@@ -29,6 +29,10 @@ export const TableBody = styled.tbody`
     background-color: #f5f5f5;
   }
 
+  tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+
   tr:hover {
     color: #00bf99;
   }
@@ -46,8 +50,10 @@ export const HeadTitles = styled.th`
 export const TransactionType = styled.td`
   text-transform: capitalize;
   padding: 12px 15px;
+  width: calc(100% / 3);
 `;
 
 export const GeneralTableCells = styled.td`
   padding: 12px 15px;
+  width: calc(100% / 3);
 `;
